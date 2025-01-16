@@ -1,0 +1,25 @@
+.main {
+    &__text {
+        max-width: 941px;
+        margin: 0 auto;
+        font-size: $text-font;
+        font-weight: 300;
+        line-height: 1.358em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        &__text {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        &__text {
+            font-size: 1rem;
+        }
+    }
+}

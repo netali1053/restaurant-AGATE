@@ -1,0 +1,27 @@
+.image {
+    margin-bottom: 35px;
+    &__item {
+        width: 100%;
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image {
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

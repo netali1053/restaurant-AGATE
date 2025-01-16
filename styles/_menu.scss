@@ -1,0 +1,40 @@
+.menu {
+    &__item {
+        font-size: 1.1rem;
+        transition: all .7s;
+    }
+    &__item:not(:last-child)::after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 25px;
+        height: 16px;
+        width: 1.5px;
+        background-color: #D8D5D5;
+    }
+    &__item:hover {
+        color: #cebdbd;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        &__item {
+            font-size: .9rem;
+        }
+        &__item:not(:last-child)::after {
+            height: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .menu {
+        &__item {
+            font-size: .8rem;
+        }
+        &__item:not(:last-child)::after {
+            margin: 0 15px;
+        }
+    }
+}

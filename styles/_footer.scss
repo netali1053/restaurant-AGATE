@@ -1,0 +1,38 @@
+    .footer {
+        background-color: #262626;
+        &__title {
+            font-size: 3.25rem;
+        }
+        &__text {
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-bottom: 60px;
+            color: #B1B1B1;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .footer {
+            padding-bottom: 78px;
+            &__title {
+                font-size: 2.5rem;
+            }
+            &__text {
+                font-size: 1rem;
+                margin-bottom: 47px;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .footer {
+            padding-bottom: 65px;
+            &__title {
+                font-size: 2rem;
+            }
+            &__text {
+                font-size: .9rem;
+                margin-bottom: 35px;
+            }
+        }
+    }

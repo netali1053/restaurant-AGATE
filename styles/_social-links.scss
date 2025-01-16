@@ -1,0 +1,12 @@
+.social-links {
+    &__item:not(:last-child) {
+        margin-right: 40px;
+    }
+    i {
+        font-size: 2.5rem;
+        transition: all .6s;
+    }
+    i:hover {
+        transform: scale(1.5);
+    }
+}

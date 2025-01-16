@@ -1,0 +1,50 @@
+.description {
+    &__subtitle {
+        font-size: $text-font;
+    }
+    &__paragraph {
+        font-size: .9rem;
+        font-weight: 300;
+        margin: 15px 0;
+        color: $next-color;
+    }
+    &__price {
+        font-size: .9rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description {
+        &__subtitle {
+            font-size: $base-font;
+        }
+        &__paragraph {
+            font-size: .75rem;
+            margin-bottom: 17px;
+        }
+        &__price {
+            font-size: .75rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        width: 50%;
+        &__paragraph {
+            font-size: 1rem;
+            margin: 20px 0;
+        }
+        &__price {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .description {
+        width: 100%;
+    }
+}

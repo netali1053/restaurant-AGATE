@@ -1,0 +1,24 @@
+.food-menu {
+    &__text {
+        @include text-style;
+        margin: 30px 0 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .food-menu {
+        &__text {
+            font-size: 1.1rem;
+            margin-bottom: 48px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .food-menu {
+        &__text {
+            font-size: 1rem;
+            margin: 20px 0 58px;
+        }
+    }
+}

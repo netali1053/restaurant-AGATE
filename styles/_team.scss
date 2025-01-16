@@ -1,0 +1,47 @@
+.team {
+    &__foto-item {
+        width: 100%;
+        max-width: 398px;
+    }
+    &__text {
+        @include text-style;
+        margin: 30px 0;
+    }
+    &__paragraph {
+        max-width: 939px;
+        font-size: $text-font;
+        font-weight: 300;
+        line-height: 1.373em;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .team {
+        &__foto-item {
+            max-width: 282px;
+        }
+        &__text {
+            font-size: 1.1rem;
+        }
+        &__paragraph {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .team {
+        &__foto-item {
+            max-width: 251px;
+            margin-bottom: 20px;
+        }
+        &__text {
+            font-size: 1rem;
+            margin: 20px 0;
+        }
+        &__paragraph {
+            font-size: 1rem;
+        }
+    }
+}

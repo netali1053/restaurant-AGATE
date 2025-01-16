@@ -1,0 +1,29 @@
+.link--white {
+    @include link-style($text-color);
+}
+
+.link--black {
+    @include link-style(#000);
+    margin-top: 60px;
+    color: #000;
+}
+
+.link:hover {
+    @include link-hover;
+}
+
+.link--black:hover {
+    color: $text-color;
+}
+
+@media screen and (max-width: 1024px) {
+    .link {
+        width: 248px;
+        height: 48px;
+        font-size: .85rem;
+        line-height: 48px;
+        &.link--black {
+            margin-top: 45px;
+        }
+    }
+}

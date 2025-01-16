@@ -1,0 +1,21 @@
+.container-items {
+    max-width: 963px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .container-items {
+        max-width: 720px;
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .container-items {
+        align-items: center;
+    }
+}

@@ -1,0 +1,24 @@
+.background {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .background {
+        background-image: url("../img/background-1440.png");
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background {
+        background-image: url("../img/background-1024.png");
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background {
+        background-image: url("../img/background-768.png");
+    }
+}

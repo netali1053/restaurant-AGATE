@@ -1,0 +1,30 @@
+.contex-menu {
+    margin: 60px 0;
+    &__link {
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.419em;
+        transition: all .7s;
+        &:hover {
+            color: #cebdbd;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contex-menu {
+        margin: 50px 0;
+        &__link {
+            font-size: $base-font;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contex-menu {
+        margin: 40px 0;
+        &__link {
+            font-size: 1.1rem;
+        }
+    }
+}
